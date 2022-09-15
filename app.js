@@ -30,6 +30,22 @@ function displayBikes() {
 }
 
 displayBikes();
+
+import { cameras } from './cameras-data.js';
+import { renderCamera } from './render-cameras.js';
+
+const cameraList = document.getElementById('camera-list');
+
+function displayCameras() {
+    cameraList.innerHTML = '';
+
+    for (let camera of cameras) {
+        const cameraEl = renderCamera(camera);
+        cameraList.append(cameraEl);
+    }
+}
+
+displayCameras();
 // initialize global state
 
 // set event listeners
