@@ -2,16 +2,16 @@ export const candies = [
     {
         name: 'Twix',
         flavor: 'chocolate caramel',
-        type: 'candy bar'
-    }
+        type: 'candy bar',
+    },
     {
         name: 'Snickers',
         flavor: 'chocolate caramel nougat',
-        type: 'candy bar'
-    }
+        type: 'candy bar',
+    },
     {
         name: 'Sour Patch Kids',
         flavor: 'sweet and sour',
-        type: 'gummy candy'
-    } 
+        type: 'gummy candy',
+    },
 ];
