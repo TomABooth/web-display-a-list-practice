@@ -1,17 +1,17 @@
-xport const bikes = [
+export const bikes = [
     {
         name: 'Road Bike',
         position: 'Aggressive',
-        speed: 'high speed'
+        speed: 'high speed',
     },
     {
         name: 'Touring Bike',
         position: 'sporty',
-        speed: 'moderate speed'
+        speed: 'moderate speed',
     },
     {
         name: 'Cruiser',
         position: 'upright',
-        speed: 'slow speed'
+        speed: 'slow speed',
     },
 ];

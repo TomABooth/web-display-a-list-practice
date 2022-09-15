@@ -14,6 +14,22 @@ function displayCandies() {
 }
 
 displayCandies();
+
+import { bikes } from './bikes-data.js';
+import { renderBike } from './render-bikes.js';
+
+const bikeList = document.getElementById('bike-list');
+
+function displayBikes() {
+    bikeList.innerHTML = '';
+
+    for (let bike of bikes) {
+        const bikeEl = renderBike(bike);
+        bikeList.append(bikeEl);
+    }
+}
+
+displayBikes();
 // initialize global state
 
 // set event listeners
